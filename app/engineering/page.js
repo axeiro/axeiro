@@ -35,6 +35,7 @@ import { FaNode , FaPython , FaJava , FaReact} from "react-icons/fa";
 import SectionLabel from "../components/SectionLabel";
 import { RiNextjsLine , RiTailwindCssFill } from "react-icons/ri";
 import { SiMongodb } from "react-icons/si";
+import { DiMysql } from "react-icons/di";
 const services = [
   {
     icon: Boxes,
@@ -188,7 +189,7 @@ const technologyIcons = {
   next: RiNextjsLine,
   tailwind: RiTailwindCssFill,
   mongo: SiMongodb,
-  mysql: Database,
+  mysql: DiMysql,
   redis: Layers3,
   aws: Cloud,
   gcp: Cloud,
