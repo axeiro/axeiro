@@ -31,7 +31,7 @@ export default function Navbar() {
         return;
       }
 
-      if (currentScrollY <= 100) {
+      if (currentScrollY <= 10) {
         setHidden(false);
       } else if (currentScrollY > lastScrollY) {
         // Scrolling down: hide navbar
